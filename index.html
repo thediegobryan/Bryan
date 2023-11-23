@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Unscrambler</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Bryan Family Letter Unscrambler</h1>
+    <input type="text" id="inputString" placeholder="Enter scrambled string">
+    <button onclick="initializeString()">Set String</button>
+    <p>Set String: <span id="currentString"></span></p>
+    <p>Guessing String: <span id="GuessingString"></span></p>
+    <input type="text" id="guessLetter" placeholder="Enter a letter">
+    <button onclick="resetString()">Reset Guessing String</button>
+</body>
+</html>
