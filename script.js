@@ -25,7 +25,7 @@ function updateDisplay() {
 
 function updateString(letterToRemove) {
     console.log(letterToRemove)
-    const index = guessingString.indexOf(letterToRemove);
+    const index = guessingString.indexOf(letterToRemove.toLowerCase());
     console.log(index)
     // If the letter is found, remove it
     if (index > -1) {
